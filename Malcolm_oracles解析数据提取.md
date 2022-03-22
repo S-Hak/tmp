@@ -28,13 +28,21 @@
     return result
 ````
 
+
 ### 请求后数据会返回到result中的result['data']，其中第一项的ID值为result['data'][0]['id']
+![image](https://github.com/S-Hak/tmp/blob/main/images/result.png)
+
+![image](https://github.com/S-Hak/tmp/blob/main/images/id.png)
+
+
+
+
 
 ## 通过ID获取 Malcolm解析后的数据包:
 ### url中的其他参数与Malcolm界面选项一一对应，根据需求进行更改，示例代码如下：
 ```
   def cat_data():
-    id = "3@220315-CgEV3UecZ3xMqZrOpoAKg_EO"
+    id = "3@220315-CgEV3UecZ3xMqZrOpoAKg_EO"              #写入想要获取的那一条的ID值
     urls = """
     https://10.2.51.242/arkime/session/%s/packets?base=ascii&line=false&image=false&gzip=false&ts=false&decode={}&packets=200&showFrames=false&showSrc=true&showDst=true
     """ % id
@@ -43,6 +51,7 @@
 ```
 
 ### 返回的数据为带有html展示特性的数据，经过过滤后可提取到oracles payload
+![image](https://github.com/S-Hak/tmp/blob/main/images/out.png)
 
 
 
