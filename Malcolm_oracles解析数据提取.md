@@ -2,12 +2,12 @@
 
 ## Malcolm 认证方式使用的基础http认证，可通过脚本添加相应头来调用Malcolm内部接口
 
-  headers = {"Authorization": "Basic YWRtaW46MTIzNDU2"}
+  `headers = {"Authorization": "Basic YWRtaW46MTIzNDU2"}`
 
 
 
-首先通过搜索语句获取搜索结果，代码示例：
-  urls = "https://10.2.51.242/api/sessions"
+## 首先通过搜索语句获取搜索结果，代码示例：
+  `urls = "https://10.2.51.242/api/sessions"`
   bodys = {
     "flatten": 1,
     "length": 50,
