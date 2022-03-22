@@ -7,7 +7,8 @@
 
 
 ## 首先通过搜索语句获取搜索结果，代码示例：
-  `urls = "https://10.2.51.242/api/sessions"`
+  ````
+  urls = "https://10.2.51.242/api/sessions"
   bodys = {
     "flatten": 1,
     "length": 50,
@@ -23,4 +24,4 @@
     }
   responce = requests.post(url=urls,headers=headers,data=bodys,verify=False)
   result = responce.json()
-
+````
