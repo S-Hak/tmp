@@ -16,3 +16,14 @@ https://github.com/S-Hak/tmp/raw/main/zeek%E9%80%9A%E8%BF%87%E5%86%85%E7%BD%AE%E
   运行完成后在当前目录生成运行结果：
   
 ![image](https://github.com/S-Hak/tmp/blob/main/images/202203301.png)
+
+
+### 其中文件分析结果存储在files.log，文件存储在extract_files
+
+  extracted对应的字段就是存储于本地的文件名
+
+![image](https://github.com/S-Hak/tmp/blob/main/images/202203302.png）
+  
+  前往extract_files即可获取文件：
+  
+![image](https://github.com/S-Hak/tmp/blob/main/images/202203303.png）
