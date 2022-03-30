@@ -22,8 +22,8 @@ https://github.com/S-Hak/tmp/raw/main/zeek%E9%80%9A%E8%BF%87%E5%86%85%E7%BD%AE%E
 
   extracted对应的字段就是存储于本地的文件名
 
-![image](https://github.com/S-Hak/tmp/blob/main/images/202203302.png）
+![image](https://github.com/S-Hak/tmp/blob/main/images/202203302.png)
   
   前往extract_files即可获取文件：
   
-![image](https://github.com/S-Hak/tmp/blob/main/images/202203303.png）
+![image](https://github.com/S-Hak/tmp/blob/main/images/202203303.png)
